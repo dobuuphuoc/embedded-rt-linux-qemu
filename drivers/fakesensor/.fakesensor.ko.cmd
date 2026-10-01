@@ -1,0 +1,1 @@
+savedcmd_fakesensor.ko := arm-buildroot-linux-gnueabi-ld -r -EL -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /home/phuoc/embedded-rt-project/buildroot/output/build/linux-6.18.7/scripts/module.lds -o fakesensor.ko fakesensor.o fakesensor.mod.o .module-common.o

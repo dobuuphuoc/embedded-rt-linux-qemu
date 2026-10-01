@@ -1,0 +1,8 @@
+buildroot/
+u-boot/
+*.o
+*.ko
+*.mod*
+*.order
+*.symvers
+/tmp/
